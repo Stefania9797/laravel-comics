@@ -50,13 +50,19 @@ main {
   background-color: #1c1c1c;
   position: relative;
 }
-main h3 {
+main h3, main a {
   text-transform: uppercase;
-  position: absolute;
-  top: -15px;
   color: white;
   background-color: #0282f9;
   padding: 10px;
+  text-decoration: none;
+}
+main .load-more {
+  margin: auto;
+}
+main h3 {
+  position: absolute;
+  top: -15px;
 }
 main h6 {
   text-transform: uppercase;
@@ -68,6 +74,7 @@ main h6 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 15px 0;
 }
 
 .comic {

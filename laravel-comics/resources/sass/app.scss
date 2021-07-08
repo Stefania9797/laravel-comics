@@ -1,3 +1,10 @@
+@mixin blue-button {
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(2, 130, 249, 1);
+    padding: 10px;
+    text-decoration: none;
+}
 *{
     margin: 0;
     padding: 0;
@@ -44,13 +51,15 @@
 main{
     background-color: rgba(28, 28, 28, 1);
     position: relative;
+    h3, a{
+        @include blue-button
+    }
+    .load-more{
+        margin: auto;
+    }
     h3{
-        text-transform: uppercase;
         position: absolute;
         top: -15px;
-        color: white;
-        background-color: rgba(2, 130, 249, 1);
-        padding: 10px;
     }
     h6{
         text-transform: uppercase;
@@ -62,6 +71,7 @@ main{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 15px 0;
 }
 .comic{
     width: calc(100% / 6);

@@ -14,6 +14,9 @@
             <h6>{{$comic["series"]}}</h6>
         </div>
         @endforeach
+        <div class="load-more">
+            <a href="">load more</a>
+        </div>
     </div>
 </div>
 
