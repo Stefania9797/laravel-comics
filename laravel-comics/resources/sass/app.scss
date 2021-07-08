@@ -41,3 +41,29 @@
     height: 400px;
     background-image: url(../images/jumbotron.jpg)
 }
+main{
+    background-color: rgba(28, 28, 28, 1);
+    position: relative;
+    h3{
+        text-transform: uppercase;
+        position: absolute;
+        top: -15px;
+        color: white;
+        background-color: rgba(2, 130, 249, 1);
+        padding: 10px;
+    }
+    h6{
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+    }
+}
+.comics{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.comic{
+    width: calc(100% / 6);
+    margin: 35px 0;
+}
