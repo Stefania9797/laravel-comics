@@ -4,6 +4,10 @@
 
 @section('content')
 
-<h1>Hi</h1>
+<div class="comic">
+    @foreach ($comics as $comic)
+    
+    @endforeach
+</div>
 
 @endsection
