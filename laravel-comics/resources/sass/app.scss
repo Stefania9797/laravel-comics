@@ -49,10 +49,13 @@
     background-image: url(../images/jumbotron.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 main{
-    background-color: rgba(28, 28, 28, 1);
-    position: relative;
+    .home-content{
+        background-color: rgba(28, 28, 28, 1);
+        position: relative;
+    }
     a{
         text-decoration: none
     }
@@ -69,7 +72,7 @@ main{
         position: absolute;
         top: -15px;
     }
-    h6{
+     .comic h6{
         text-transform: uppercase;
         color: white;
         text-align: center;
@@ -114,4 +117,37 @@ main{
         height: 50px;
         object-fit: contain;
     }
+}
+.small-container{
+    width: 70%;
+    margin: auto;
+}
+.top-content{
+    display: flex;
+}
+.left-content{
+    width: 70%;
+}
+.right-content{
+    width: 30%;
+}
+.divider{
+    height: 80px;
+    background-color: rgba(2, 130, 249, 1);
+}
+.comic-cover{
+    position: absolute;
+    top: 270px;
+}
+.green-info{
+    display: flex;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+.availabilty{
+    margin-left: 15px;
 }
