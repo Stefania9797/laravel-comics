@@ -27,7 +27,7 @@
                     </div>
                     <div class="main-nav-links">
                         <a href="">Characters</a>
-                        <a href="">comics</a
+                        <a href="{{route('comics')}}" id="{{Route::currentRouteName() === 'comics' ? 'active' : ''}}">comics</a
                         ><a href="">movies</a>
                         <a href="">tv</a>
                         <a href="">games</a>
