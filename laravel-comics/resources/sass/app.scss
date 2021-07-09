@@ -53,11 +53,17 @@
 main{
     background-color: rgba(28, 28, 28, 1);
     position: relative;
-    h3, a{
-        @include blue-button
+    a{
+        text-decoration: none
+    }
+    h3 {
+        @include blue-button;
     }
     .load-more{
         margin: auto;
+        a{
+            @include blue-button
+        }
     }
     h3{
         position: absolute;

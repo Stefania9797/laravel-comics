@@ -6,10 +6,12 @@
 <div class="container">
     <h3>Current series</h3>
     <div class="comics">
-        @foreach ($comics as $comic)
+        @foreach ($comics as $index=> $comic)
         <div class="comic">
-            <div class="cover" style="background-image: url('{{$comic['thumb']}}');"></div>
-            <h6>{{$comic["series"]}}</h6>
+            <a href="{{route('comic' , ['id'=> $index])}}">
+                <div class="cover" style="background-image: url('{{$comic['thumb']}}');"></div>
+                <h6>{{$comic["series"]}}</h6>
+            </a>
         </div>
         @endforeach
         <div class="load-more">

@@ -52,7 +52,10 @@ main {
   background-color: #1c1c1c;
   position: relative;
 }
-main h3, main a {
+main a {
+  text-decoration: none;
+}
+main h3 {
   text-transform: uppercase;
   color: white;
   background-color: #0282f9;
@@ -61,6 +64,13 @@ main h3, main a {
 }
 main .load-more {
   margin: auto;
+}
+main .load-more a {
+  text-transform: uppercase;
+  color: white;
+  background-color: #0282f9;
+  padding: 10px;
+  text-decoration: none;
 }
 main h3 {
   position: absolute;
