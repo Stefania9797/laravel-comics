@@ -135,15 +135,38 @@ main .comic h6 {
 }
 
 .top-content {
+  margin-top: 50px;
   display: flex;
+  justify-content: space-between;
 }
 
 .left-content {
   width: 70%;
 }
 
+h1 {
+  padding-bottom: 15px;
+  color: #003f5e;
+  text-transform: uppercase;
+}
+
+.description p {
+  line-height: 2;
+}
+
 .right-content {
   width: 30%;
+}
+
+.adv img {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.adv h4 {
+  text-align: end;
+  color: grey;
+  text-transform: uppercase;
 }
 
 .divider {
@@ -156,17 +179,77 @@ main .comic h6 {
   top: 270px;
 }
 
-.green-info {
-  display: flex;
-}
-
 .d-flex {
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  width: 70%;
   align-items: center;
 }
 
 .availabilty {
+  margin: auto;
+  border-left: 1px solid black;
+}
+
+.d-flex, .availabilty {
+  padding: 10px;
+}
+
+.green-info {
+  display: flex;
+  background: #55ba59;
+}
+
+.price-info span, .available-info h6 {
+  color: #a2e363;
+}
+
+.price-info p, .availabilty p {
+  color: white;
+}
+
+.bottom-info {
+  background-color: #f6f6f6;
+  margin-top: 15px;
+}
+.bottom-info h5 {
+  color: #003f5e;
+  text-transform: capitalize;
+}
+
+.bottom-info .small-container {
+  display: flex;
+}
+
+.talent, .specs {
+  width: 50%;
+}
+
+.specs {
   margin-left: 15px;
+}
+
+.series-info a {
+  color: #0282f9;
+  text-transform: uppercase;
+}
+
+.art-by a, .written-by a {
+  color: #0282f9;
+}
+
+.bottom-info h2 {
+  padding: 20px 0;
+  color: #003f5e;
+}
+
+.art-by, .written-by, .series, .on-sale, .us-price {
+  display: flex;
+  padding: 10px 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.written-by-title, .art-by-title, .series-title, .us-price-title, .onsale-title {
+  min-width: 30%;
 }
