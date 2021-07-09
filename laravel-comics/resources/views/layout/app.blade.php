@@ -23,7 +23,9 @@
             <div class="container">
                 <nav class="main-nav">
                     <div class="logo">
-                        <img src="{{asset('images/dc-logo.png')}}" alt="">
+                        <a href="{{route('comics')}}" id="header-logo">
+                            <img src="{{asset('images/dc-logo.png')}}" alt="">
+                        </a>
                     </div>
                     <div class="main-nav-links">
                         <a href="">Characters</a>

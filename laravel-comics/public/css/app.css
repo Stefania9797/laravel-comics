@@ -28,6 +28,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.main-nav #header-logo {
+  padding: 0;
+}
 .main-nav .logo img {
   width: 60px;
 }
