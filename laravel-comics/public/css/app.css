@@ -49,6 +49,11 @@
   position: relative;
 }
 
+#active {
+  color: #0282f9;
+  border-bottom: 4px solid #0282f9;
+}
+
 main .home-content {
   background-color: #1c1c1c;
   position: relative;
@@ -101,11 +106,6 @@ main .comic h6 {
   width: calc(100% / 6);
   margin: 30px 0;
   padding: 0 10px;
-}
-
-#active {
-  color: #0282f9;
-  border-bottom: 4px solid #0282f9;
 }
 
 .info {
