@@ -57,6 +57,10 @@
   border-bottom: 4px solid #0282f9;
 }
 
+main {
+  position: relative;
+  z-index: 2;
+}
 main .home-content {
   background-color: #1c1c1c;
   position: relative;
@@ -214,6 +218,7 @@ h1 {
 .bottom-info {
   background-color: #f6f6f6;
   margin-top: 15px;
+  padding-bottom: 60px;
 }
 .bottom-info h5 {
   color: #003f5e;
@@ -255,4 +260,79 @@ h1 {
 
 .written-by-title, .art-by-title, .series-title, .us-price-title, .onsale-title {
   min-width: 30%;
+}
+
+.shopinfo {
+  background-color: #f6f6f6;
+  border-top: 1px solid lightgray;
+}
+
+footer {
+  position: relative;
+}
+footer .footer-top {
+  background-image: url(../../images/footer-bg.jpg);
+}
+footer .footer-links {
+  display: flex;
+}
+footer h3 {
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  color: grey;
+}
+footer .dc-comics_shop, footer .dc, footer .sites {
+  width: 14%;
+}
+footer p {
+  color: gray;
+  width: 25%;
+  font-size: 13px;
+  padding: 20px 0;
+}
+footer p a {
+  color: #0282f9;
+  text-decoration: none;
+}
+footer .bg {
+  z-index: 1;
+  position: absolute;
+  right: 100px;
+  bottom: 30px;
+}
+footer .footer-bottom {
+  position: relative;
+  z-index: 2;
+  background-color: #303030;
+  padding: 15px 0;
+}
+footer .footer-bottom button {
+  background-color: transparent;
+  border: 3px solid #0282f9;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+}
+footer .footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-bottom .social {
+  display: flex;
+  align-items: center;
+}
+footer .footer-bottom .follow-us {
+  margin: 0 15px;
+}
+footer .footer-bottom h4 {
+  text-transform: uppercase;
+  color: #0282f9;
 }

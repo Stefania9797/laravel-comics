@@ -64,6 +64,7 @@ h1{
 .bottom-info{
     background-color: rgba(246, 246, 246, 1);
     margin-top: 15px;
+    padding-bottom: 60px;
     h5{
         color: $dark_blue;
         text-transform: capitalize;
@@ -99,4 +100,8 @@ h1{
 }
 .written-by-title , .art-by-title , .series-title , .us-price-title , .onsale-title{
     min-width: 30%;
+}
+.shopinfo{
+    background-color: rgba(246, 246, 246, 1);
+    border-top: 1px solid lightgray;
 }

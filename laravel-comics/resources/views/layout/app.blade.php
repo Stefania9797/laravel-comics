@@ -50,7 +50,91 @@
         </main>
         <!-- footer uguale per tutte le pagine -->
         <footer>
-        
+            <!-- footer-top -->
+            <div class="footer-top">
+                <div class="bg">
+                    <img src="{{asset('images/dc-logo-bg.png')}}" alt="">
+                </div>
+                <div class="container">
+                    <!-- colonne footer -->
+                    <div class="footer-links">
+                        <!-- colonna dc-comics -->
+                        <div class="dc-comics_shop">
+                            <div class="dc-comics">
+                                <h3>Dc comics</h3>
+                                <ul>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                </ul>
+                            </div>
+                            <!-- colonna shop -->
+                            <div class="shop">
+                                <h3>shop</h3>
+                                <ul>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- colonna dc -->
+                        <div class="dc">
+                            <h3>Dc</h3>
+                            <ul>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                            </ul>
+                        </div>
+                        <!-- colonna sites -->
+                        <div class="sites">
+                            <h3>sites</h3>
+                            <ul>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                                <li>lorem</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>Lorem ipsum, dolor sit amet elit. <a href="">Distinctio similique</a> consectetur corrupti <a href="">Lorem ipsum dolor sit.</a> quaerat!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-bottom -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="signup">
+                        <button>Sign up now!</button>
+                    </div>
+                    <div class="social">
+                        <div class="follow-us">
+                            <h4>follow us</h4>
+                        </div>
+                        <div class="icons">
+                            <img src="{{asset('images/footer-facebook.png')}}" alt="">
+                            <img src="{{asset('images/footer-twitter.png')}}" alt="">
+                            <img src="{{asset('images/footer-youtube.png')}}" alt="">
+                            <img src="{{asset('images/footer-pinterest.png')}}" alt="">
+                            <img src="{{asset('images/footer-periscope.png')}}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
